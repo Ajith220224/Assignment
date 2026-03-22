@@ -1,0 +1,46 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #F7F8FC
+}
+/* Nav-button */
+.btn-orange{
+    color: orangered;
+}
+.btn-oranged{
+    background-color:orangered;
+    color: white;
+}
+.btn-discover{
+    padding: 20px;
+    color: orangered;
+    border-radius: solid 5px orangered;
+    border-color: orangered;
+
+
+}
+.background-color{
+    background-color: white;
+}
+.padding-right{
+    padding-left: 60%;
+}
+.padding-left{
+    padding-left: 85%;
+}
+.con-hight{
+    height: 70vh;
+}
+.margin{
+    text-align: center;
+    /* padding: 20px; */
+    border-radius: 10px;
+    /* padding-left: 45%;
+    margin-top: 20px; */
+}
+.container-radius{
+    border-radius: 10px;
+}
