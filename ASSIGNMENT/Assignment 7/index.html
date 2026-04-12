@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <!--External Css -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Calculator</h1>
+    </header>
+    <section id="calculator">
+        <input type="text" id="display" readonly>
+        <div class="button">
+            <!--first Row & function is camelcase letter-->
+            <button onclick="memoryRecall()">MRC</button>
+            <button onclick="memoryClear()">M-</button>
+            <button onclick="memoryAdd()">M+</button>
+            <button onclick="squareValue()">x2</button>
+            <button onclick="pressValue()">%</button>
+            <!--Second Row & function is camelcase letter-->
+            <button onclick="pressValue()">-</button>
+            <button onclick="pressValue()">7</button>
+            <button onclick="pressValue()">8</button>
+            <button onclick="pressValue()">9</button>
+            <button onclick="pressValue()">/</button>
+             <!--Third Row & function is camelcase letter-->
+             <button onclick="deleteLast()">DEL</button>
+             <button onclick="pressValue()">4</button>
+             <button onclick="pressValue()">5</button>
+             <button onclick="pressValue()">6</button>
+             <button onclick="pressValue()">X</button>
+           <!--Fourth Row & function is camelcase letter--> 
+           <button onclick="clearDisplay()">AC</button>  
+           <button onclick="pressValue()">1</button>  
+           <button onclick="pressValue()">2</button>  
+           <button onclick="pressValue()">3</button>  
+           <button onclick="pressValue()">-</button>  
+           <!--Fourth Row & function is camelcase letter-->
+           <button onclick="pressValue()">0</button> 
+           <button onclick="pressValue()">00</button> 
+           <button onclick="pressValue()">.</button> 
+           <button onclick="pressValue()">=</button> 
+           <button onclick="pressValue()">+</button> 
+        </div>
+    </section>
+    <!--External css added-->
+    <script src="script.js"></script>
+</body>
+</html>
