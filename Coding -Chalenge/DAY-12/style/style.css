@@ -1,0 +1,66 @@
+/*universel sector*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+body{
+    background-color: white;
+}
+/* headr section*/
+header{
+    background: black;
+    color: #ebe9ec;
+    padding: 15px;
+    text-align: center;
+}
+.contact-container{
+    width: 35%;
+    margin: 40px auto;
+    background: #ece9ec;
+    padding: 25px;
+    border-radius: 15px;
+}
+h2{
+    text-align: center;
+    margin-bottom: 20px;
+}
+label{
+     font-weight: bold;
+}
+input{
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    border: 1.2px solid gray;
+}
+.oneclick{
+    align-self: center;
+}
+button{
+    background: blueviolet;
+    color: white;
+    padding: 10px;
+    border: 8px;
+    width: 40%;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 20px;
+
+}
+button:hover{
+    background: burlywood;
+    color: black;
+    font-weight: bold;
+}
+/*Footer section*/
+footer{
+    background: #555;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 30px;
+}

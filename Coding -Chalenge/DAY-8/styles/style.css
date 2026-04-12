@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, sans-serif;
+    background-color: whitesmoke;
+    text-align: center;
+}
+h1{
+    margin: 20px;
+}
+.gallery{
+    display: grid;
+    gap: 40px;
+    padding: 20px;
+    
+}
+.photo img{
+      object-fit: cover;
+      border-radius: 15px;
+      transition: 0.3s;
+}
+footer{
+    margin-top: 10px;
+}
