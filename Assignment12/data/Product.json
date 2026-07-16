@@ -1,0 +1,50 @@
+[
+  {
+    "productId": 1,
+    "productName": "Veg Rolls",
+    "description": "Preferred by Both Vegetarians and Non Vegetarians",
+    "Stock": true
+  },
+  {
+    "productId": 2,
+    "productName": "Chicken Manchuria",
+    "description": "Preferred by Non Vegetarians",
+    "Stock": true
+  },
+  {
+    "productId": 3,
+    "productName": "Chicken Biryani",
+    "description": "Spiced rice dish with chicken",
+    "Stock": true
+  },
+  {
+    "productId": 4,
+    "productName": "Veg Fried Rice",
+    "description": "Rice stir fried with vegetables",
+    "Stock": false
+  },
+  {
+    "productId": 5,
+    "productName": "Gobi Manchurian",
+    "description": "Crispy cauliflower in Indo-Chinese sauce",
+    "Stock": true
+  },
+  {
+    "productId": 6,
+    "productName": "Mutton Curry",
+    "description": "Slow cooked mutton in spicy gravy",
+    "Stock": false
+  },
+  {
+    "productId": 7,
+    "productName": "Masala Dosa",
+    "description": "South Indian crepe with potato filling",
+    "Stock": true
+  },
+  {
+    "productId": 8,
+    "productName": "Cold Coffee",
+    "description": "Chilled coffee beverage",
+    "Stock": true
+  }
+]
