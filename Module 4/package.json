@@ -1,0 +1,37 @@
+ {
+  "name": "ecommerce-backend",
+  "version": "1.0.0",
+  "description": "E-Commerce Backend System with JWT Auth, RBAC, CRUD, Search/Filter and Product Recommendations",
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "seed": "node utils/seed.js"
+  },
+  "keywords": [
+    "ecommerce",
+    "express",
+    "mongodb",
+    "jwt",
+    "rbac"
+  ],
+  "author":"",
+  "license":"ISC",
+  "dependencies": {
+    "bcryptjs": "^3.0.3",
+    "cors": "^2.8.6",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "express-validator": "^7.3.2",
+    "jsonwebtoken": "^9.0.3",
+    "mongoose": "^9.9.1"
+  },
+
+  "devDependencies": {
+     "nodemon": "^3.1.14",
+    "supertest": "^7.2.2"
+  }
+   
+  
+}
